@@ -1,0 +1,114 @@
+
+.main-title {
+  color: #003ba5;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.main-description {
+  font-size: 18px;
+  color: #444;
+  max-width: 800px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+.banner-image {
+  max-width: 100%;
+  height: auto;
+  margin: 2rem auto;
+  border-radius: 16px;
+}
+
+.section-title {
+  color: #003ba5;
+  font-weight: bold;
+  margin: 2rem 0 1rem;
+  font-size: 24px;
+}
+
+.service-card {
+  height: 100%;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: center;
+  background-color: #fff;
+}
+
+.service-image {
+  width: 50%;
+  max-width: 100px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.hover-transparent:hover {
+  background-color: #003ba5 !important;
+  color: #fff !important;
+}
+
+.hover-transparent:hover .card-title {
+  color: white !important;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #003ba5;
+}
+
+.cta-button {
+  background-color: #003ba5;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button.hovered {
+  background-color: #001f73;
+}
+
+.service-link,
+.service-link:hover,
+.service-link:focus,
+.service-link:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .main-title {
+    font-size: 26px;
+  }
+
+  .main-description {
+    font-size: 16px;
+  }
+
+  .card-title {
+    font-size: 14px;
+  }
+
+  .cta-button {
+    width: 100%;
+    font-size: 16px;
+    padding: 0.75rem 1.5rem;
+  }
+
+  .service-image {
+    width: 60%;
+    max-width: 80px;
+  }
+
+  .service-card {
+    padding: 1rem;
+  }
+}

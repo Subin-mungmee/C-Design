@@ -1,0 +1,12 @@
+.ctaButton {
+    transition: all 0.25s ease;
+  }
+  
+  .ctaButton:hover {
+    filter: brightness(1.1);
+    transform: scale(1.2);
+    background-color: #003ba5 !important;
+    color: white !important;
+    border: none;
+  }
+  

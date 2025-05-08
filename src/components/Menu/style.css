@@ -1,0 +1,95 @@
+/* --- Navbar ที่สูงขึ้น --- */
+.slim-navbar {
+  padding: 0.4rem 0;
+  min-height: 56px !important;
+  background-color: rgba(2, 13, 75, 0.96) !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 1030;
+}
+
+/* แบรนด์และโลโก้ใหญ่ขึ้น */
+.slim-navbar .navbar-brand {
+  padding: 0;
+  margin: 0;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+.slim-navbar .navbar-brand img {
+  height: 46px;
+  width: auto;
+  margin-right: 8px;
+  transition: transform 0.2s ease;
+}
+
+.slim-navbar .navbar-brand img:hover {
+  transform: scale(1.05);
+}
+
+/* ลิงก์ใน Navbar ใหญ่และอ่านง่ายขึ้น */
+.navbar-links .nav-link,
+.slim-navbar .nav-link {
+  padding: 0.5rem 0.9rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #f5f5f5 !important;
+  font-weight: 500;
+}
+
+.slim-navbar .nav-link:hover {
+  color: #fff7aa !important;
+}
+
+/* ปรับขนาด Toggle */
+.slim-navbar .navbar-toggler {
+  padding: 0.3rem 0.6rem;
+  font-size: 1.2rem;
+}
+
+/* --- Responsive Typography ใหญ่ขึ้น --- */
+.responsive-heading {
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 500;
+}
+
+.responsive-subheading {
+  font-size: clamp(1.2rem, 4vw, 2rem);
+  font-weight: 400;
+  margin-bottom: 1.2rem;
+}
+
+.responsive-button {
+  font-size: clamp(1rem, 2.5vw, 1.3rem);
+  font-weight: 500; /* ✅ แก้จาก 600 → 400 ให้ไม่หนา */
+  padding: 0.75rem 1.6rem;
+  border-radius: 0.5rem;
+  
+}
+
+/* --- Topbar Link ใหญ่ขึ้น --- */
+.topbar-link {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.topbar-link:hover {
+  color: #0d6efd;
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+/* Responsive: ซ่อนไปในหน้าจอเล็ก */
+@media (max-width: 576px) {
+  .topbar-container {
+    display: none;
+  }
+}

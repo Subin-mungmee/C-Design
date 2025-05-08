@@ -1,0 +1,30 @@
+.heroSection {
+    background-color: #002364;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    align-items: center;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .heroSection {
+      flex-direction: column;
+      height: auto;
+      padding: 1.5rem;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+  
+  .slick-slide {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+  
+  .card {
+    box-shadow: none;
+    border: 1px solid #ccc;
+  }
+  

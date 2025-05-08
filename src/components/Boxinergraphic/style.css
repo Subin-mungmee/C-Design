@@ -1,0 +1,70 @@
+.main-title {
+  color: #003ba5;
+  font-size: 35px;
+  font-weight: bold;
+  text-align: center; /* ถูกต้องแล้ว */
+  margin-bottom: 1rem; /* เพิ่มระยะห่างด้านล่างนิดหน่อย */
+}
+
+.main-description {
+  font-size: 20px;
+}
+
+.banner-image {
+  max-width: 66%;
+  height: auto;
+}
+
+.section-title {
+  color: #003ba5;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.service-card {
+  height: 100%;
+  border: 1px solid #eee;
+  border-radius: 15px;
+  transition: 0.3s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.service-image {
+  width: 50%;
+  max-width: 100px;
+  height: auto;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.hover-transparent:hover {
+  background-color: #003ba5 !important;
+  color: rgb(27, 153, 185) !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hover-transparent:hover .card-title {
+  color: white !important;
+}
+
+.cta-button {
+  background-color: #003ba5;
+  color: white;
+  border: none;
+  width: auto;
+  max-width: 300px;
+  text-decoration: none;
+  box-shadow: none;
+  transition: 0.3s ease;
+}
+
+.cta-button.hovered {
+  background-color: #001f73;
+}
+.service-link,
+.service-link:hover,
+.service-link:focus,
+.service-link:active {
+  text-decoration: none;
+}
