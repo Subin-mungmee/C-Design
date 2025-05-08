@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FaFacebook, FaInstagram, FaLine, FaEnvelope } from "react-icons/fa";
 import Logo from "../Img/LogoC-De.png";
 import styles from './Footer.module.css';
+import Link from 'next/link';
 
 const Footer = (): JSX.Element => {
   const currentYear = new Date().getFullYear();
@@ -26,9 +27,9 @@ const Footer = (): JSX.Element => {
               <Col md={4} className="mb-4">
                 <h6 className="fw-bold mb-3">เมนู</h6>
                 <ul className="list-unstyled small">
-                  <li><a href="/" className={styles["footer-link"]}>หน้าแรก</a></li>
-                  <li><a href="/Pagewebsite" className={styles["footer-link"]}>บริการของเรา</a></li>
-                  <li><a href="/Pagegraphic" className={styles["footer-link"]}>ผลงาน</a></li>
+                  <li><Link  href="/" className={styles["footer-link"]}>หน้าแรก</Link ></li>
+                  <li><Link  href="/Pagewebsite" className={styles["footer-link"]}>บริการของเรา</Link ></li>
+                  <li><Link  href="/Pagegraphic" className={styles["footer-link"]}>ผลงาน</Link ></li>
                   <li>
                     <a href="https://line.me/R/ti/p/@018jebed?text=สนใจทำเว็บไซต์ครับ"
                        target="_blank" rel="noopener noreferrer"

@@ -1,6 +1,5 @@
 import Head from 'next/head';
 import { MDBCardImage } from 'mdb-react-ui-kit';
-import Container from 'react-bootstrap/Container';
 import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
