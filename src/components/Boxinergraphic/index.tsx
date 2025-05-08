@@ -21,7 +21,7 @@ interface Service {
   image: string;
 }
 
-export default function Boxinner() {
+export default function BoxinnerGrapich() {
   const [hover, setHover] = useState(false);
 
   const services: Service[] = [
@@ -64,7 +64,7 @@ export default function Boxinner() {
 
   return (
     <div>
-      <Container style={{ paddingTop: '5rem',textAlign:'center', paddingBottom:'2rem' }}>
+      <Container style={{ paddingTop: '5rem', textAlign: 'center', paddingBottom: '2rem' }}>
         <span className="main-title">
           ออกแบบกราฟิกที่ใช่ เพื่อแบรนด์ที่น่าจดจำ
         </span>
@@ -111,7 +111,7 @@ export default function Boxinner() {
 
         <div className="d-flex justify-content-center mt-4">
           <Button
-            href="https://www.youtube.com/watch?v=c9B4TPnak1A"
+            href="..."
             target="_blank"
             rel="nofollow"
             size="lg"
@@ -119,7 +119,7 @@ export default function Boxinner() {
             onMouseEnter={() => setHover(true)}
             onMouseLeave={() => setHover(false)}
           >
-            ติดต่อปรึกษาออกแบบกราฟิก
+            ติดต่อปรึกษาทำเว็บไซต์
           </Button>
         </div>
       </Container>
