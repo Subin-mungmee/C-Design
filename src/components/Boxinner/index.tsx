@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import {
   MDBCard,
   MDBCardBody,
@@ -16,8 +16,6 @@ import Innerwebsite from '@/components/Boxinerwebsite';
 import './Boxinner.css';
 
 const Boxinner: React.FC = () => {
-  const [hover, setHover] = useState<boolean>(false);
-
   return (
     <div>
       <Container style={{ paddingTop: '5rem', paddingBottom: '3rem' }}>
@@ -88,8 +86,6 @@ const Boxinner: React.FC = () => {
             rel="nofollow"
             size="lg"
             className="cta-button"
-            onMouseEnter={() => setHover(true)}
-            onMouseLeave={() => setHover(false)}
           >
             ติดต่อปรึกษาทำเว็บไซต์
           </Button>
