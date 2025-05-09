@@ -13,7 +13,7 @@ import './stylebanner.css';
 
 const SplitFlexBox: React.FC = () => {
   return (
-    <MDBContainer className="container" >
+    <MDBContainer className="container" style={{paddingBottom:'2rem'}} >
       <MDBRow>
         <MDBCol>
           <MDBCard className="p-0 border-0 shadow-0 rounded-4 overflow-hidden">
