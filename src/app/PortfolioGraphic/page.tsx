@@ -4,6 +4,13 @@ import HeaderNavbar from "@/components/Menu/indexnon";
 
 import Pic9 from '@/components/Img/p9.jpg';
 import Pic10 from '@/components/Img/p10.jpg';
+import Pic11 from '@/components/Img/p11.jpg';
+import Pic12 from "@/components/Img/p12.jpg";
+import Pic13 from "@/components/Img/p13.jpg";
+import Pic14 from "@/components/Img/p14.jpg";
+import Pic15 from "@/components/Img/p15.jpg";
+import Pic16 from "@/components/Img/p16.jpg";
+import Pic17 from "@/components/Img/p17.jpg";
 
 
 type Project = {
@@ -21,32 +28,32 @@ const projects: Project[] = [
     imageUrl: Pic10.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    imageUrl: '/images/project2.jpg',
+    title: 'Power Point',
+    imageUrl: Pic11.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    imageUrl: '/images/project2.jpg',
+    title: 'แผนผังระบบ',
+    imageUrl: Pic12.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    imageUrl: '/images/project2.jpg',
+    title: 'Ads. คลีนิค',
+    imageUrl: Pic13.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    imageUrl: '/images/project2.jpg',
+    title: 'Ads. ร้านขนม Lazada',
+    imageUrl: Pic14.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    imageUrl: '/images/project2.jpg',
+    title: 'Ads. ร้านขนม Shopee',
+    imageUrl: Pic15.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    imageUrl: '/images/project2.jpg',
+    title: 'Ads ฉีดโฟม',
+    imageUrl:  Pic16.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    imageUrl: '/images/project2.jpg',
+    title: 'โบรชัวร์ ขายตึกแถว',
+    imageUrl:  Pic17.src,
   },
 ];
 

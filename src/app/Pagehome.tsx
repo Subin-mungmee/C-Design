@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import BounceLoader from "react-spinners/ClockLoader";
+import BounceLoader from "react-spinners/SkewLoader";
 import HeaderNavbar from "@/components/Menu/index";
 import Boxinner from "@/components/Boxinner/index";
 import Packet from "@/components/Packet/index";
@@ -28,7 +28,7 @@ function Pagehome() {
     <>
       {loading && (
         <div className="loading-overlay">
-          <BounceLoader color="white" loading={loading} size={45} />
+          <BounceLoader color="#2ae1f3" loading={loading} size={29} />
           <img src={Logo.src} width="90" alt="Loading Logo" />
           <h3 style={{ color: "white" }}>C-Design</h3>
         </div>
