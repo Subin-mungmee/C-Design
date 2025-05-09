@@ -7,6 +7,7 @@ import PacketWeb from "../Packetweb/index";
 import Image from "next/image";
 import Imgwebdesign from "@/components/Img/WebMockup.png";
 import PacketGraphic from "@/components/PacketGraphic/index";
+import Imggraphic from "@/components/Img/GraphicMockup.png"
 
 export default function WebDesignTabs() {
   const [activeTab, setActiveTab] = useState<"starter" | "business">("starter");
@@ -55,7 +56,7 @@ export default function WebDesignTabs() {
             <motion.div
               key="starter"
               className="p-4 rounded shadow-sm text-white"
-              style={{ backgroundColor: "#003ba5" }} // สีพื้นหลังใหม่ + เปลี่ยนสีตัวอักษร
+              style={{ backgroundColor: "#dadada" }} // สีพื้นหลังใหม่ + เปลี่ยนสีตัวอักษร
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -50 }}
@@ -69,7 +70,7 @@ export default function WebDesignTabs() {
                   height={350}
                   className="mb-3"
                 />
-                <h4 className="fw-bold mb-3">แพ็กเกจ สำหรับเว็บไซต์</h4>
+                <h4 className="fw-bold mb-3" style={{ color: '#373737' }}>แพ็กเกจ สำหรับเว็บไซต์</h4>
               </div>
               <PacketWeb />
             </motion.div>
@@ -78,13 +79,23 @@ export default function WebDesignTabs() {
           {activeTab === "business" && (
             <motion.div
               key="business"
-             className="p-4 rounded shadow-sm text-white"
+              className="p-4 rounded shadow-sm text-white"
               style={{ backgroundColor: "#dadada" }} // สีพื้นหลังใหม่ + เปลี่ยนสีตัวอักษร
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 50 }}
               transition={{ duration: 0.4 }}
             >
+              <div className="d-flex flex-column align-items-center">
+                <Image
+                  src={Imggraphic.src}
+                  alt="Web Design"
+                  width={550}
+                  height={350}
+                  className="mb-3"
+                />
+                <h4 className="fw-bold mb-3" style={{ color: '#373737' }}>แพ็กเกจ สำหรับเว็บไซต์</h4>
+              </div>
               <PacketGraphic />
             </motion.div>
           )}
