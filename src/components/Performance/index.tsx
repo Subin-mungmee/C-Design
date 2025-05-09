@@ -15,9 +15,13 @@ import w3 from '../Img/01_3.jpg';
 import w4 from '../Img/01_2.jpg';
 
 import g1 from '../Img/p1.jpg';
-import g2 from '../Img/p1.jpg';
-import g3 from '../Img/p1.jpg';
-import g4 from '../Img/p1.jpg';
+import g2 from '../Img/p2.jpg';
+import g3 from '../Img/p3.jpg';
+import g4 from '../Img/p4.jpg';
+import g5 from '../Img/p5.jpg';
+import g6 from '../Img/p6.jpg';
+import g7 from '../Img/p7.jpg';
+import g8 from '../Img/p8.jpg';
 
 interface WorkItem {
   id: number;
@@ -33,10 +37,15 @@ const websiteWorks: WorkItem[] = [
 ];
 
 const graphicWorks: WorkItem[] = [
-  { id: 1, title: 'กราฟิก 1', image: g1 },
-  { id: 2, title: 'กราฟิก 2', image: g2 },
-  { id: 3, title: 'กราฟิก 3', image: g3 },
-  { id: 4, title: 'กราฟิก 4', image: g4 },
+  { id: 1, title: 'ผลงานกราฟิก 1', image: g1 },
+  { id: 2, title: 'ผลงานกราฟิก 2', image: g2 },
+  { id: 3, title: 'ผลงานกราฟิก 3', image: g3 },
+  { id: 4, title: 'ผลงานกราฟิก 4', image: g4 },
+  { id: 5, title: 'ผลงานกราฟิก 5', image: g5 },
+  { id: 6, title: 'ผลงานกราฟิก 6', image: g6 },
+  { id: 7, title: 'ผลงานกราฟิก 7', image: g7 },
+  { id: 8, title: 'ผลงานกราฟิก 8', image: g8 },
+
 ];
 
 const SiteShowcase = () => {
