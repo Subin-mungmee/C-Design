@@ -94,7 +94,7 @@ export default function WebDesignTabs() {
                   height={350}
                   className="mb-3"
                 />
-                <h4 className="fw-bold mb-3" style={{ color: '#373737' }}>แพ็กเกจ สำหรับเว็บไซต์</h4>
+                <h4 className="fw-bold mb-3" style={{ color: '#373737' }}>บริการ สำหรับกราฟิก</h4>
               </div>
               <PacketGraphic />
             </motion.div>
