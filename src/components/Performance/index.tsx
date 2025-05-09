@@ -1,12 +1,14 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Container, Row, Col, Card } from 'react-bootstrap';
+import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import Slider from 'react-slick';
 import Image, { StaticImageData } from 'next/image';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import styles from './SiteShowcase.module.css';
+import Link from 'next/link';
+
 
 // รูปภาพ
 import w1 from '../Img/01_0.jpg';
@@ -118,12 +120,24 @@ const SiteShowcase = () => {
         สร้างสรรค์ <span style={{ color: '#fbca02', fontSize: '50px', fontWeight: 'bold' }}>เว็บไซต์</span> ที่ไม่เหมือนใคร
       </div>
       <Container className="my-5">{renderWorks(websiteWorks)}</Container>
+      <div className="d-flex justify-content-center mt-4">
+        <Button className={styles.moreButton}>ผลงานเพิ่มเติม...</Button>
+      </div>
 
       <div style={{ fontSize: '30px', paddingTop: '3rem' }}>
         <h2>ผลงานกราฟิก</h2>
         จุดประกาย <span style={{ color: '#ff55a3', fontSize: '40px', fontWeight: 'bold' }}>จินตนาการ</span> ผ่านงานภาพและดีไซน์
       </div>
       <Container className="my-5">{renderWorks(graphicWorks)}</Container>
+      <div className="d-flex justify-content-center mt-4">
+        <div className="d-flex justify-content-center mt-4">
+          <Link href="/PortfolioGraphic" passHref>
+            <Button className={styles.moreButton}>
+              ผลงานเพิ่มเติม...
+            </Button>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 };
