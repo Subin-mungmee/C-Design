@@ -55,7 +55,7 @@ export default function WebDesignTabs() {
             <motion.div
               key="starter"
               className="p-4 rounded shadow-sm text-white"
-              style={{ backgroundColor: "#003ba5" }}
+              style={{ backgroundColor: "#003ba5" }} // สีพื้นหลังใหม่ + เปลี่ยนสีตัวอักษร
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: -50 }}
@@ -78,7 +78,8 @@ export default function WebDesignTabs() {
           {activeTab === "business" && (
             <motion.div
               key="business"
-              className="w-100 p-0 m-0"
+             className="p-4 rounded shadow-sm text-white"
+              style={{ backgroundColor: "#dadada" }} // สีพื้นหลังใหม่ + เปลี่ยนสีตัวอักษร
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               exit={{ opacity: 0, x: 50 }}
