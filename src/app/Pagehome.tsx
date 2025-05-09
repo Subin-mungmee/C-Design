@@ -6,7 +6,7 @@ import BounceLoader from "react-spinners/ClockLoader";
 import HeaderNavbar from "@/components/Menu/index";
 import Boxinner from "@/components/Boxinner/index";
 import Packet from "@/components/Packet/index";
-import Logo from "@/components/Img/LogoC-De.png";
+import Logo from "@/components/Img/C-Logo-New.png";
 import Bannergraphic from "@/components/Boxinergraphic/index";
 import Footer from "@/components/Footer/index";
 import Pickweb from "@/components/Pickweb/index";

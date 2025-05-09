@@ -1,6 +1,7 @@
 // app/page.tsx
 import HomePageindex from './Pagehome';
 import { Metadata } from 'next';
+import Logo from "@/components/Img/C-Logo-New.png"
 
 export const metadata: Metadata = {
   title: 'C-Design - รับทำเว็บไซต์ React | ออกแบบภาพโฆษณา | ดูแลเพจ Shopee Lazada',
@@ -13,7 +14,7 @@ export const metadata: Metadata = {
     url: 'https://imn.co.th', // แก้เป็น URL จริงของคุณถ้ายังไม่ได้เปลี่ยน
     images: [
       {
-        url: '/img/W-logo.png', // เปลี่ยนเป็นโลโก้ของ C-Design หากมี
+        url: Logo.src, // เปลี่ยนเป็นโลโก้ของ C-Design หากมี
         width: 800,
         height: 600,
         alt: 'C-Design logo',
