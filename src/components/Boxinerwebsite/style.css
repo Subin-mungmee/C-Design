@@ -1,0 +1,9 @@
+.hover-transparent:hover {
+    background-color: #003ba5 !important;
+    color: rgb(27, 153, 185) !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hover-transparent:hover .card-title {
+    color: white !important;
+}
