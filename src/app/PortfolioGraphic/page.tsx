@@ -52,7 +52,7 @@ const projects: Project[] = [
     imageUrl:  Pic16.src,
   },
   {
-    title: 'โบรชัวร์ ขายตึกแถว.',
+    title: 'โบรชัวร์ ขายตึกแถว',
     imageUrl:  Pic17.src,
   },
 ];
