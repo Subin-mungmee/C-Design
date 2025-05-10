@@ -2,60 +2,58 @@ import Head from 'next/head';
 import styles from './Portfolio.module.css';
 import HeaderNavbar from "@/components/Menu/indexnon";
 
+import Pic9 from '@/components/Img/p9.jpg';
+import Pic10 from '@/components/Img/p10.jpg';
+import Pic11 from '@/components/Img/p11.jpg';
+import Pic12 from "@/components/Img/p12.jpg";
+import Pic13 from "@/components/Img/p13.jpg";
+import Pic14 from "@/components/Img/p14.jpg";
+import Pic15 from "@/components/Img/p15.jpg";
+import Pic16 from "@/components/Img/p16.jpg";
+import Pic17 from "@/components/Img/p17.jpg";
+
 
 type Project = {
   title: string;
-  description: string;
   imageUrl: string;
-  link?: string;
 };
 
 const projects: Project[] = [
   {
-    title: 'Landing Page สำหรับสินค้า',
-    description: 'ออกแบบและพัฒนาเว็บขายสินค้าเดี่ยวด้วย React + Bootstrap',
-    imageUrl: '/images/project1.jpg',
-    link: 'https://your-demo-link.com',
+    title: 'Ads. รถยนต์',
+    imageUrl: Pic9.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    description: 'ดูแลภาพลักษณ์เพจพร้อมออกแบบภาพโฆษณา',
-    imageUrl: '/images/project2.jpg',
+    title: 'Company Profile',
+    imageUrl: Pic10.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    description: 'ดูแลภาพลักษณ์เพจพร้อมออกแบบภาพโฆษณา',
-    imageUrl: '/images/project2.jpg',
+    title: 'Power Point',
+    imageUrl: Pic11.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    description: 'ดูแลภาพลักษณ์เพจพร้อมออกแบบภาพโฆษณา',
-    imageUrl: '/images/project2.jpg',
+    title: 'แผนผังระบบ',
+    imageUrl: Pic12.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    description: 'ดูแลภาพลักษณ์เพจพร้อมออกแบบภาพโฆษณา',
-    imageUrl: '/images/project2.jpg',
+    title: 'Ads. คลีนิค',
+    imageUrl: Pic13.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    description: 'ดูแลภาพลักษณ์เพจพร้อมออกแบบภาพโฆษณา',
-    imageUrl: '/images/project2.jpg',
+    title: 'Ads. ร้านขนม Lazada',
+    imageUrl: Pic14.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    description: 'ดูแลภาพลักษณ์เพจพร้อมออกแบบภาพโฆษณา',
-    imageUrl: '/images/project2.jpg',
+    title: 'Ads. ร้านขนม Shopee',
+    imageUrl: Pic15.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    description: 'ดูแลภาพลักษณ์เพจพร้อมออกแบบภาพโฆษณา',
-    imageUrl: '/images/project2.jpg',
+    title: 'Ads ฉีดโฟม',
+    imageUrl:  Pic16.src,
   },
   {
-    title: 'เพจร้าน Shopee/Lazada',
-    description: 'ดูแลภาพลักษณ์เพจพร้อมออกแบบภาพโฆษณา',
-    imageUrl: '/images/project2.jpg',
+    title: 'โบรชัวร์ ขายตึกแถว.',
+    imageUrl:  Pic17.src,
   },
 ];
 
@@ -74,12 +72,6 @@ export default function PortfolioPage() {
               <img src={project.imageUrl} alt={project.title} className={styles.image} />
               <div className={styles.content}>
                 <h2>{project.title}</h2>
-                <p>{project.description}</p>
-                {project.link && (
-                  <a href={project.link} target="_blank" rel="noopener noreferrer">
-                    ดูตัวอย่าง
-                  </a>
-                )}
               </div>
             </div>
           ))}

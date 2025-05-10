@@ -1,0 +1,38 @@
+
+.hero-section {
+    background-color:#002364;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    align-items: center;
+
+
+}
+
+/* Media Queries สำหรับการแสดงผลบนมือถือ */
+@media (max-width: 768px) {
+    .hero-section {
+        flex-direction: column;
+        height: auto;
+        padding: 1.5rem;
+        width: 100%;           /* ✅ ให้เต็มจอ */
+        box-sizing: border-box; /* ✅ ป้องกัน padding ดัน content */
+    }
+
+}
+.Container{
+    padding-top: 4rem;
+    background-color: #002874;
+    color: rgb(255, 255, 255);
+}
+
+.slick-slide {
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .card {
+    box-shadow: none ;
+    border: 1 ;
+  }

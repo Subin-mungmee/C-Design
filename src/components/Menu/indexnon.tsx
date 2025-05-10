@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 import Image from 'next/image';
-import Imglogo from '../Img/LogoC-De.png';
+import Imglogo from '../Img/C-Logo-New.png';
 import './style.css';
 
 export default function App() {

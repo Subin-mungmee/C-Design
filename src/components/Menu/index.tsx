@@ -7,7 +7,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import Button from 'react-bootstrap/Button';
 import Image from 'next/image';
 
-import Imglogo from '../Img/LogoC-De.png';
+import Imglogo from '../Img/C-Logo-New.png';
 import Banner1 from '../Img/clearHeaderOem-branding.jpg';
 import PicNextjs from '../Img/nextjs.png';
 import PicReact from '../Img/reactlogo.png';

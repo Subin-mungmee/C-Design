@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { FaFacebook, FaInstagram, FaLine, FaEnvelope } from "react-icons/fa";
-import Logo from "../Img/LogoC-De.png";
+import Logo from "../Img/C-Logo-New.png";
 import styles from './Footer.module.css';
 import Link from 'next/link';
 
