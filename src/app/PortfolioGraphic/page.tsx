@@ -11,7 +11,8 @@ import Pic14 from "@/components/Img/p14.jpg";
 import Pic15 from "@/components/Img/p15.jpg";
 import Pic16 from "@/components/Img/p16.jpg";
 import Pic17 from "@/components/Img/p17.jpg";
-
+import Pic18 from "@/components/Img/p18.jpg";
+import Pic19 from "@/components/Img/p19.jpg";
 
 type Project = {
   title: string;
@@ -54,6 +55,14 @@ const projects: Project[] = [
   {
     title: 'โบรชัวร์ ขายตึกแถว',
     imageUrl:  Pic17.src,
+  },
+  {
+    title: 'Ads ผ้าคลุมรถยนต์',
+    imageUrl:  Pic18.src,
+  },
+  {
+    title: 'ออกแบบลายเสื้อ',
+    imageUrl:  Pic19.src,
   },
 ];
 
