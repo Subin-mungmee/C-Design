@@ -14,6 +14,8 @@ import Pic17 from "@/components/Img/p17.jpg";
 import Pic18 from "@/components/Img/p18.jpg";
 import Pic19 from "@/components/Img/p19.jpg";
 import Pic20 from "@/components/Img/p20.jpg";
+import Pic21 from "@/components/Img/p21.jpg";
+import Pic22 from "@/components/Img/p22.jpg";
 
 type Project = {
   title: string;
@@ -51,23 +53,31 @@ const projects: Project[] = [
   },
   {
     title: 'Ads ฉีดโฟม',
-    imageUrl:  Pic16.src,
+    imageUrl: Pic16.src,
   },
   {
     title: 'โบรชัวร์ ขายตึกแถว',
-    imageUrl:  Pic17.src,
+    imageUrl: Pic17.src,
   },
   {
     title: 'Ads ผ้าคลุมรถยนต์',
-    imageUrl:  Pic18.src,
+    imageUrl: Pic18.src,
   },
   {
     title: 'ออกแบบลายเสื้อ',
-    imageUrl:  Pic19.src,
+    imageUrl: Pic19.src,
   },
-    {
+  {
     title: 'Ads ปลั๊กไฟ ซีเบิร์ก',
-    imageUrl:  Pic20.src,
+    imageUrl: Pic20.src,
+  },
+  {
+    title: 'ริช เมนูไลน์ OA',
+    imageUrl: Pic21.src,
+  },
+  {
+    title: 'ปก Facebook',
+    imageUrl: Pic22.src,
   },
 ];
 
