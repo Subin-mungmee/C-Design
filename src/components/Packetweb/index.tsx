@@ -82,7 +82,7 @@ const packages = [
   {
     name: "E-COMMERCE WEBSITE",
     description: "เว็บไซต์ธุรกิจ มีระบบซื้อขายภายในเว็บไซต์",
-    price: "฿14,900+",
+    price: "฿25,900+",
     color: "#fb923c",
     features: [
       "ระยะเวลาในการทำงาน 20 วัน",
