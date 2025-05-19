@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Picweb1 from '../Img/Pickweb1.png';
+import Picweb2 from '../Img/Pickweb2.jpg';
+
 
 type Template = {
   id: number;
@@ -20,10 +22,10 @@ const templates: Template[] = [
   },
   {
     id: 2,
-    name: 'Restaurant Delight',
-    category: 'Restaurant',
-    image: 'https://via.placeholder.com/300x200',
-    previewUrl: 'https://example.com/preview/2',
+    name: 'เว็บแบบหน้าเดียว',
+    category: 'One Page',
+    image: Picweb2.src,
+    previewUrl: 'https://mgproratchpruke.com/',
   },
   {
     id: 3,
