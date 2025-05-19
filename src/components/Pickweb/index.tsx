@@ -33,7 +33,7 @@ const templates: Template[] = [
     id: 3,
     name: 'เว็บแนวบริษัท',
     category: 'CORPORATE WEBSITE',
-    image: Picweb2.src,
+    image: Picweb3.src,
     previewUrl: 'https://adsawinplug.com',
   },
 ];
