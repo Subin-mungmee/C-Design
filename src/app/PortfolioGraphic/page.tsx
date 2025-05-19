@@ -76,7 +76,7 @@ const projects: Project[] = [
     imageUrl: Pic21.src,
   },
   {
-    title: 'ปก Facebook',
+    title: 'ปก Facebook.',
     imageUrl: Pic22.src,
   },
 ];
