@@ -63,18 +63,11 @@ export default function App() {
             <Nav className="me-auto">
               <Nav.Link href="/">หน้าแรก</Nav.Link>
               <Nav.Link href="/Pagewebsite">แพ็คเกจเว็บ</Nav.Link>
-              <Nav.Link href="/PortfolioGraphic">แพ็คเกจกราฟิก</Nav.Link>
-              <NavDropdown title="ผลงาน" id="collapsible-nav-dropdown">
-                <NavDropdown.Item href="/portfolio/web">เว็บ</NavDropdown.Item>
-                <NavDropdown.Item href="/portfolio/ads">ภาพ ADS.</NavDropdown.Item>
-                <NavDropdown.Item href="/portfolio/images">ภาพ</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#">....</NavDropdown.Item>
-              </NavDropdown>
+              <Nav.Link href="/PortfolioGraphic">ตัวอย่างผลงานกราฟิก</Nav.Link>
             </Nav>
             <Nav>
-              <Nav.Link href="/services/web">บริการทำเว็บไซต์</Nav.Link>
-              <Nav.Link href="/services/graphic">บริการออกแบบกราฟิก</Nav.Link>
+              <Nav.Link href="https://line.me/ti/p/@018jebed">บริการทำเว็บไซต์</Nav.Link>
+              <Nav.Link href="https://line.me/ti/p/@018jebed">บริการออกแบบกราฟิก</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
