@@ -2,6 +2,8 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Picweb1 from '../Img/Pickweb1.png';
 import Picweb2 from '../Img/Pickweb2.jpg';
+import Picweb3 from '../Img/Pickweb3.jpg';
+
 
 
 type Template = {
@@ -29,10 +31,10 @@ const templates: Template[] = [
   },
   {
     id: 3,
-    name: 'Minimal Blog',
-    category: 'Blog',
-    image: 'https://via.placeholder.com/300x200',
-    previewUrl: 'https://example.com/preview/3',
+    name: 'เว็บแนวบริษัท',
+    category: 'CORPORATE WEBSITE',
+    image: Picweb2.src,
+    previewUrl: 'https://adsawinplug.com',
   },
 ];
 
